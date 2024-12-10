@@ -1,0 +1,104 @@
+# Compile of add_sub.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of carry_look_ahead.sv was successful.
+# Compile of control_logic.sv was successful.
+# Compile of cpu.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of memory.v was successful.
+# Compile of PC_control.sv was successful.
+# Compile of project-phase1-testbench.v was successful.
+# Compile of red.sv was successful.
+# Compile of reg_file.sv was successful.
+# Compile of shifter.sv was successful.
+# Compile of testbench.sv was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.cpu_tb
+# vsim -voptargs="+acc" work.cpu_tb 
+# Start time: 20:08:01 on Mar 04,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.cpu_tb(fast)
+# Loading work.cpu(fast)
+# Loading work.memory1c(fast)
+# Loading sv_std.std
+# Loading work.PC_control(fast)
+# Loading work.addsub_16bit(fast)
+# Loading work.RegisterFile(fast)
+# Loading work.ReadDecoder_4_16(fast)
+# Loading work.WriteDecoder_4_16(fast)
+# Loading work.control_logic(fast)
+# Loading work.ALU(fast)
+# Loading work.Shifter(fast)
+# Loading work.RED(fast)
+# Loading work.carry_look_ahead(fast)
+# Loading work.Register(fast)
+# Loading work.dff(fast)
+# Loading work.full_adder_1bit(fast)
+# Loading work.BitCell(fast)
+run -all
+# Hello world...simulation starting
+# See verilogsim.log and verilogsim.trace for output
+# ** Note: $stop    : I:/Ece552/552-Project-main (1)/552-Project-main/Phase 1/project-phase1-testbench.v(126)
+#    Time: 1300 ns  Iteration: 1  Instance: /cpu_tb
+# Break in Module cpu_tb at I:/Ece552/552-Project-main (1)/552-Project-main/Phase 1/project-phase1-testbench.v line 126
+# Compile of memory.v was successful.
+# Compile of project-phase1-testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Closing VCD file "dump.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.cpu_tb(fast)
+# Loading work.cpu(fast)
+# Loading work.memory1c(fast)
+# Loading sv_std.std
+# Loading work.PC_control(fast)
+# Loading work.addsub_16bit(fast)
+# Loading work.RegisterFile(fast)
+# Loading work.ReadDecoder_4_16(fast)
+# Loading work.WriteDecoder_4_16(fast)
+# Loading work.control_logic(fast)
+# Loading work.ALU(fast)
+# Loading work.Shifter(fast)
+# Loading work.RED(fast)
+# Loading work.carry_look_ahead(fast)
+# Loading work.Register(fast)
+# Loading work.dff(fast)
+# Loading work.full_adder_1bit(fast)
+# Loading work.BitCell(fast)
+run -all
+# Hello world...simulation starting
+# See verilogsim.log and verilogsim.trace for output
+# ** Note: $stop    : I:/Ece552/552-Project-main (1)/552-Project-main/Phase 1/project-phase1-testbench.v(126)
+#    Time: 1400 ns  Iteration: 1  Instance: /cpu_tb
+# Break in Module cpu_tb at I:/Ece552/552-Project-main (1)/552-Project-main/Phase 1/project-phase1-testbench.v line 126
+# Compile of memory.v was successful.
+# Compile of project-phase1-testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Closing VCD file "dump.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.cpu_tb(fast)
+# Loading work.cpu(fast)
+# Loading work.memory1c(fast)
+# Loading sv_std.std
+# Loading work.PC_control(fast)
+# Loading work.addsub_16bit(fast)
+# Loading work.RegisterFile(fast)
+# Loading work.ReadDecoder_4_16(fast)
+# Loading work.WriteDecoder_4_16(fast)
+# Loading work.control_logic(fast)
+# Loading work.ALU(fast)
+# Loading work.Shifter(fast)
+# Loading work.RED(fast)
+# Loading work.carry_look_ahead(fast)
+# Loading work.Register(fast)
+# Loading work.dff(fast)
+# Loading work.full_adder_1bit(fast)
+# Loading work.BitCell(fast)
+run -all
+# Hello world...simulation starting
+# See verilogsim.log and verilogsim.trace for output
+# ** Note: $stop    : I:/Ece552/552-Project-main (1)/552-Project-main/Phase 1/project-phase1-testbench.v(126)
+#    Time: 2100 ns  Iteration: 1  Instance: /cpu_tb
+# Break in Module cpu_tb at I:/Ece552/552-Project-main (1)/552-Project-main/Phase 1/project-phase1-testbench.v line 126

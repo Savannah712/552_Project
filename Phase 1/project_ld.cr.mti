@@ -1,0 +1,92 @@
+{I:/Ece552/552-Project-main (1)/552-Project-main/Phase 1/PC_control.sv} {1 {vlog -work work -vopt -sv -stats=none {I:/Ece552/552-Project-main (1)/552-Project-main/Phase 1/PC_control.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module PC_control
+-- Compiling module t_PC_control
+
+Top level modules:
+	t_PC_control
+
+} {} {}} {I:/Ece552/552-Project-main (1)/552-Project-main/Phase 1/red.sv} {1 {vlog -work work -vopt -sv -stats=none {I:/Ece552/552-Project-main (1)/552-Project-main/Phase 1/red.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module RED
+
+Top level modules:
+	RED
+
+} {} {}} {I:/Ece552/552-Project-main (1)/552-Project-main/Phase 1/carry_look_ahead.sv} {1 {vlog -work work -vopt -sv -stats=none {I:/Ece552/552-Project-main (1)/552-Project-main/Phase 1/carry_look_ahead.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module carry_look_ahead
+
+Top level modules:
+	carry_look_ahead
+
+} {} {}} {I:/Ece552/552-Project-main (1)/552-Project-main/Phase 1/ALU.sv} {1 {vlog -work work -vopt -sv -stats=none {I:/Ece552/552-Project-main (1)/552-Project-main/Phase 1/ALU.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {I:/Ece552/552-Project-main (1)/552-Project-main/Phase 1/add_sub.sv} {1 {vlog -work work -vopt -sv -stats=none {I:/Ece552/552-Project-main (1)/552-Project-main/Phase 1/add_sub.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module full_adder_1bit
+-- Compiling module addsub_16bit
+
+Top level modules:
+	full_adder_1bit
+	addsub_16bit
+
+} {} {}} {I:/Ece552/552-Project-main (1)/552-Project-main/Phase 1/cpu.v} {1 {vlog -work work -vopt -stats=none {I:/Ece552/552-Project-main (1)/552-Project-main/Phase 1/cpu.v}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module cpu
+
+Top level modules:
+	cpu
+
+} {} {}} {I:/Ece552/552-Project-main (1)/552-Project-main/Phase 1/reg_file.sv} {1 {vlog -work work -vopt -sv -stats=none {I:/Ece552/552-Project-main (1)/552-Project-main/Phase 1/reg_file.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module ReadDecoder_4_16
+-- Compiling module WriteDecoder_4_16
+-- Compiling module BitCell
+-- Compiling module Register
+-- Compiling module RegisterFile
+-- Compiling module t_RegisterFile
+
+Top level modules:
+	t_RegisterFile
+
+} {} {}} {I:/Ece552/552-Project-main (1)/552-Project-main/Phase 1/shifter.sv} {1 {vlog -work work -vopt -sv -stats=none {I:/Ece552/552-Project-main (1)/552-Project-main/Phase 1/shifter.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module Shifter
+
+Top level modules:
+	Shifter
+
+} {} {}} {I:/Ece552/552-Project-main (1)/552-Project-main/Phase 1/control_logic.sv} {1 {vlog -work work -vopt -sv -stats=none {I:/Ece552/552-Project-main (1)/552-Project-main/Phase 1/control_logic.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module control_logic
+
+Top level modules:
+	control_logic
+
+} {} {}} {I:/Ece552/552-Project-main (1)/552-Project-main/Phase 1/D-Flip-Flop.v} {1 {vlog -work work -vopt -stats=none {I:/Ece552/552-Project-main (1)/552-Project-main/Phase 1/D-Flip-Flop.v}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module dff
+
+Top level modules:
+	dff
+
+} {} {}} {I:/Ece552/552-Project-main (1)/552-Project-main/Phase 1/testbench.sv} {1 {vlog -work work -vopt -sv -stats=none {I:/Ece552/552-Project-main (1)/552-Project-main/Phase 1/testbench.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module t_RED
+-- Compiling module saturate_tb
+-- Compiling module t_carry_look_ahead
+-- Compiling module t_ALU
+
+Top level modules:
+	t_RED
+	saturate_tb
+	t_carry_look_ahead
+	t_ALU
+
+} {} {}}
